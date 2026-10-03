@@ -1,32 +1,44 @@
-# React + TypeScript + Vite
+ Rentora
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern peer-to-peer rental platform that connects people who want to rent items with people who want to list and rent them.
 
-Currently, two official plugins are available:
+ 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* User authentication
+* Google Sign-In
+* Browse rental listings
+* Create and manage rental listings
+* Product images and details
+* Rental price information
+* Booking and request functionality
+* User and renter profiles
+* Responsive and modern UI
 
-## React Compiler
+ 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Supabase
+* Git & GitHub
 
-## Expanding the Oxlint configuration
+ 📌 Project Goal
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Rentora aims to provide a simple and trustworthy platform for peer-to-peer rentals, making it easier for users to list, discover, and rent products.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+ 💡 Future Enhancements
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+* Digital Product Passport
+* Trust Profile
+* Rental Reminders
+* Penalty Management
+* Complaint Management
+* Improved Verification System
+
+ 👨‍💻 Project Status
+
+Actively developing and improving Rentora as a real-world web application.
+
+
+
